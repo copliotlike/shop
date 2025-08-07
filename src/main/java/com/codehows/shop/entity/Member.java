@@ -28,7 +28,7 @@ public class Member {
 
     @Enumerated(EnumType.STRING)
     private Role role;
-
+    // github update
     public static Member createMember(MemberFormDto memberFormDto,
                                       PasswordEncoder passwordEncoder) {
         Member member = new Member();
