@@ -14,16 +14,32 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableWebSecurity
 //use springboot filter
 public class SecurityConfig {
-    /* 스프링 시큐리티 필터 체인 */
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        /*
-        http.설정1
-        http.설정2
-        http.설정3
-         */
+        http.formLogin((it)-> it
+                .loginPage("/members/login")
+                .defaultSuccessUrl("/")
+                .usernameParameter("email")
+                .failureUrl("/members/login/error")
+        );
+        http.logout((logout)-> logout
+                .logoutUrl("/members/logout")
+                .logoutSuccessUrl("/")
+        );
+
         return http.build();
     }
+
+    /* 스프링 시큐리티 필터 체인 */
+//    @Bean
+//    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+//        /*
+//        http.설정1
+//        http.설정2
+//        http.설정3
+//         */
+//        return http.build();
+//    }
 
     @Bean
     public PasswordEncoder passwordEncoder() {
