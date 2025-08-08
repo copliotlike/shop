@@ -27,7 +27,7 @@ public class SecurityConfig {
                 .logoutUrl("/members/logout")
                 .logoutSuccessUrl("/")
         );
-        http.csrf(AbstractHttpConfigurer::disable);
+//        http.csrf(AbstractHttpConfigurer::disable);
 
 
         return http.build();
