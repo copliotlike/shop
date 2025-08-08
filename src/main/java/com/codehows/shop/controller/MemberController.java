@@ -1,5 +1,8 @@
 package com.codehows.shop.controller;
 
+import com.codehows.shop.Dto.MemberFormDto;
+import com.codehows.shop.entity.Member;
+import com.codehows.shop.service.MemberService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;

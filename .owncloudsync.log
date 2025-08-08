@@ -274,3 +274,14 @@ Log for:C:/shop/
 #=#=#=#=# Propagation starts 2025-08-08T08:18:07Z (last step: 109 msec , total: 109 msec) 
 2025-08-08T08:18:07+00:00 | target/classes/static | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 |  | 0 |  | OCC::SyncFileItem::Message | 서버 응답: "423 Locked" - "MKCOL http://222.119.100.81/owncloud/remote.php/dav/files/asdf/springboot/target/classes/static" | 423 | 0 | 0 | 35007803-5a22-4b38-8871-f8119e68a4aa | 
 #=#=#=# Syncrun finished 2025-08-08T08:18:07Z (last step: 68 msec , total: 178 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:18:29Z
+#=#=#=#=# Propagation starts 2025-08-08T08:18:29Z (last step: 319 msec , total: 319 msec) 
+2025-08-08T08:18:29+00:00 | target/classes/static | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 |  | 0 |  | OCC::SyncFileItem::Message | 서버 응답: "423 Locked" - "MKCOL http://222.119.100.81/owncloud/remote.php/dav/files/asdf/springboot/target/classes/static" | 423 | 0 | 0 | de2df1b2-9d09-4683-9acb-f0784f49162e | 
+2025-08-08T08:18:29+00:00 | target/classes/com/codehows/shop/controller/MemberController.class | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1754640820 | 58b0075547733280680b46c94aca7d09 | 2939 | 00282939oci0n6765fou | OCC::SyncFileItem::Success |  | 204 | 2939 | 1754640820 | 85643f62-5f2f-4d28-a10e-d8cc4d994686 | 
+2025-08-08T08:18:29+00:00 | target/classes/com/codehows/shop/entity/QItem.class | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1754623531 | 89d3054bd9a7585e359da9a36b0f0291 | 3260 | 00282879oci0n6765fou | OCC::SyncFileItem::Success |  | 204 | 3260 | 1754623531 | da5a5391-6026-4f76-b7ad-53661383733f | 
+2025-08-08T08:18:29+00:00 | src/main/java/com/codehows/shop/controller/MemberController.java | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1754641104 | 5062986a24019c6d39f84abdb22bf529 | 1725 | 00282827oci0n6765fou | OCC::SyncFileItem::Success |  | 204 | 1860 | 1754640799 | 53059d13-eb83-4375-8fe0-558ff71a7809 | 
+#=#=#=# Syncrun finished 2025-08-08T08:18:30Z (last step: 403 msec , total: 723 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:18:38Z
+#=#=#=#=# Propagation starts 2025-08-08T08:18:38Z (last step: 359 msec , total: 359 msec) 
+2025-08-08T08:18:38+00:00 | target/classes/static | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 |  | 0 |  | OCC::SyncFileItem::Message | 서버 응답: "423 Locked" - "MKCOL http://222.119.100.81/owncloud/remote.php/dav/files/asdf/springboot/target/classes/static" | 423 | 0 | 0 | 730f28a3-a54b-46f0-a65d-59d8c0e2dfa5 | 
+#=#=#=# Syncrun finished 2025-08-08T08:18:38Z (last step: 72 msec , total: 432 msec) 
