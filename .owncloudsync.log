@@ -190,3 +190,87 @@ Log for:C:/shop/
 #=#=#=# Syncrun started 2025-08-08T08:05:38Z
 #=#=#=#=# Propagation starts 2025-08-08T08:05:38Z (last step: 361 msec , total: 361 msec) 
 #=#=#=# Syncrun finished 2025-08-08T08:05:38Z (last step: 14 msec , total: 376 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:10:49Z
+#=#=#=#=# Propagation starts 2025-08-08T08:10:49Z (last step: 138 msec , total: 138 msec) 
+2025-08-08T08:10:49+00:00 | src/main/java/com/codehows/shop/config/SecurityConfig.java | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1754640641 | e77cde7843f08d05a247badc2f83ca3d | 1762 | 00282823oci0n6765fou | OCC::SyncFileItem::Success |  | 204 | 1716 | 1754638001 | c3b84c1f-2f4e-4cf7-a923-baf003a93337 | 
+2025-08-08T08:10:49+00:00 | target/classes/com/codehows/shop/config | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1754639274 | 6895abaa0f9eb | 0 | 00282867oci0n6765fou | OCC::SyncFileItem::Success |  | 204 | 0 | 1754639274 | 9f28cf6e-8d2b-43f8-8906-ef12be2cfb3d | 
+#=#=#=# Syncrun finished 2025-08-08T08:10:49Z (last step: 416 msec , total: 554 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:11:38Z
+#=#=#=#=# Propagation starts 2025-08-08T08:11:38Z (last step: 338 msec , total: 338 msec) 
+#=#=#=# Syncrun finished 2025-08-08T08:11:38Z (last step: 11 msec , total: 350 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:13:29Z
+#=#=#=#=# Propagation starts 2025-08-08T08:13:29Z (last step: 123 msec , total: 123 msec) 
+2025-08-08T08:13:29+00:00 | pom.xml | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754622219 |  | 5666 |  | OCC::SyncFileItem::BlacklistedError | 서버 응답: "500 Internal Server Error" - "PUT http://222.119.100.81/owncloud/remote.php/dav/files/asdf/springboot/pom.xml" | 500 | 0 | 0 | ac51a4af-58b6-482c-8d59-f870072ef903 | 
+2025-08-08T08:13:29+00:00 | src/main/java/com/codehows/shop/controller/MemberController.java | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1754640799 | 9870122eb547ae9943ebb00d12ed4b6f | 1860 | 00282827oci0n6765fou | OCC::SyncFileItem::Success |  | 204 | 1856 | 1754640303 | d1ff863b-9d22-4e30-b0c4-7d4d6950c743 | 
+#=#=#=# Syncrun finished 2025-08-08T08:13:29Z (last step: 176 msec , total: 300 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:13:38Z
+#=#=#=#=# Propagation starts 2025-08-08T08:13:38Z (last step: 350 msec , total: 350 msec) 
+ | src/main/java/com/codehows/shop/config/SecurityConfig.java | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1754640818 | e77cde7843f08d05a247badc2f83ca3d | 1764 | 00282823oci0n6765fou | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 1762 | 1754640641 |  | 
+#=#=#=# Syncrun finished 2025-08-08T08:13:38Z (last step: 14 msec , total: 365 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:13:39Z
+#=#=#=#=# Propagation starts 2025-08-08T08:13:39Z (last step: 73 msec , total: 73 msec) 
+ | src/main/java/com/codehows/shop/config/SecurityConfig.java | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1754640818 | e77cde7843f08d05a247badc2f83ca3d | 1764 | 00282823oci0n6765fou | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 1762 | 1754640641 |  | 
+#=#=#=# Syncrun finished 2025-08-08T08:13:39Z (last step: 6 msec , total: 80 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:13:40Z
+#=#=#=#=# Propagation starts 2025-08-08T08:13:40Z (last step: 87 msec , total: 87 msec) 
+ | target/classes/com/codehows/shop/controller/MemberController.class | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754640820 |  | 2939 |  | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 0 | 0 |  | 
+2025-08-08T08:13:41+00:00 | src/main/java/com/codehows/shop/config/SecurityConfig.java | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1754640818 | 905afaee2826e02afe362ae5a7094fb5 | 1764 | 00282823oci0n6765fou | OCC::SyncFileItem::Success |  | 204 | 1762 | 1754640641 | b70a4eec-009f-49a1-9fab-bb8cff654d0f | 
+ | target/classes/com/codehows/shop/config/SecurityConfig.class | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754640820 |  | 3496 |  | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 0 | 0 |  | 
+2025-08-08T08:13:40+00:00 | target/classes/com/codehows/shop/config | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754640820 |  | 0 | 00282937oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 5c743474-9e33-4ba9-b392-fe50e652b836 | 
+#=#=#=# Syncrun finished 2025-08-08T08:13:40Z (last step: 219 msec , total: 307 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:13:41Z
+#=#=#=#=# Propagation starts 2025-08-08T08:13:41Z (last step: 330 msec , total: 330 msec) 
+ | target/classes/com/codehows/shop/config/SecurityConfig.class | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754640820 |  | 3496 |  | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 0 | 0 |  | 
+ | target/classes/com/codehows/shop/controller/MemberController.class | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754640820 |  | 2939 |  | OCC::SyncFileItem::Message | 동기화 중 로컬 파일이 변경되었습니다. 곧 다시 시작됩니다. | 0 | 0 | 0 |  | 
+#=#=#=# Syncrun finished 2025-08-08T08:13:41Z (last step: 18 msec , total: 348 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:13:43Z
+#=#=#=#=# Propagation starts 2025-08-08T08:13:43Z (last step: 78 msec , total: 78 msec) 
+2025-08-08T08:13:43+00:00 | target/classes/com/codehows/shop/controller/MemberController.class | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754640820 | 58b0075547733280680b46c94aca7d09 | 2939 | 00282939oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 62e469ab-cdb6-4d16-b459-1cc091cf58e9 | 
+2025-08-08T08:13:43+00:00 | target/classes/com/codehows/shop/config/SecurityConfig.class | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754640820 | 78497229bf3eb4b1cff01bd0f27dcceb | 3496 | 00282940oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | c950f447-9efa-4741-be05-62f365d6b3f6 | 
+#=#=#=# Syncrun finished 2025-08-08T08:13:43Z (last step: 260 msec , total: 338 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:14:38Z
+#=#=#=#=# Propagation starts 2025-08-08T08:14:38Z (last step: 378 msec , total: 378 msec) 
+#=#=#=# Syncrun finished 2025-08-08T08:14:38Z (last step: 14 msec , total: 392 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:17:05Z
+#=#=#=#=# Propagation starts 2025-08-08T08:17:05Z (last step: 101 msec , total: 101 msec) 
+#=#=#=# Syncrun finished 2025-08-08T08:17:05Z (last step: 6 msec , total: 108 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:17:59Z
+#=#=#=#=# Propagation starts 2025-08-08T08:17:59Z (last step: 79 msec , total: 79 msec) 
+2025-08-08T08:17:59+00:00 | target/generated-sources/java/com/codehows/shop/entity/QItem.java | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1754641072 | 5792a39d35ee8139a53b1a0b16270806 | 1688 | 00282920oci0n6765fou | OCC::SyncFileItem::Success |  | 204 | 1688 | 1754461024 | 5f345942-10c9-41f1-be00-d85e07fe6cc9 | 
+2025-08-08T08:17:59+00:00 | target/classes/static | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 |  | 0 |  | OCC::SyncFileItem::Message | 서버 응답: "423 Locked" - "MKCOL http://222.119.100.81/owncloud/remote.php/dav/files/asdf/springboot/target/classes/static" | 423 | 0 | 0 | 66f8515c-14b7-41f4-96ee-680854bbb8f3 | 
+2025-08-08T08:17:59+00:00 | target/classes/application-dev.properties | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 | 6dee87a45e2ff8a4de3a3b85f85ea539 | 110 | 00282951oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | f06aff87-86a6-449c-9c82-d4dfb4198227 | 
+2025-08-08T08:17:59+00:00 | target/classes/application.properties | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 | 1ee51e64b14463342b9d292252681e2a | 510 | 00282942oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 524d4056-0c57-4fc1-8ed4-9afc34dcc555 | 
+2025-08-08T08:18:00+00:00 | target/classes/templates/main.html | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754615517 | c92d4a5c5a98ae7b3a145a9bf96f41db | 265 | 00282957oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | f2e0a896-7353-4a89-83a0-00274b3c2c6e | 
+2025-08-08T08:17:59+00:00 | target/classes/application-test.properties | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 | 852bea79f85c138e5ad0434727bdf555 | 215 | 00282956oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 873f5bb9-6fb8-4c1d-bd4f-41b3641c7b2e | 
+2025-08-08T08:18:00+00:00 | target/classes/templates/thymeleafEx/ThymeleafEx01.html | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754468936 | bad32c36a8a8f33f5e2283c1bb3f3d71 | 212 | 00282958oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 879dc415-3a02-4512-b258-dc0063de2f6c | 
+2025-08-08T08:18:00+00:00 | target/classes/templates/member/memberForm.html | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754638666 | 9cbaa80ecdeaa418f98d69fc26122d3d | 2471 | 00282960oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 43148e9c-d9ab-4446-959a-7fdadae98e74 | 
+2025-08-08T08:18:00+00:00 | target/classes/templates/thymeleafEx/ThymeleafEx02.html | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754527806 | 4f23d430242a819f17f106de000a2482 | 578 | 00282961oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 9c8a3e20-e826-4ef3-a1a6-326ccd870642 | 
+2025-08-08T08:18:00+00:00 | target/classes/templates/member/memberLoginForm.html | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754639180 | a4f2745ea899e59da17526bb353260b6 | 1559 | 00282963oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 91ee7203-f1a1-43c8-9a47-bae3d10596c8 | 
+2025-08-08T08:17:59+00:00 | target/classes/templates/member | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 |  | 0 | 00282955oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | f1a6cba0-d288-4995-8b41-7d4f0cc9a82f | 
+2025-08-08T08:18:00+00:00 | target/classes/templates/layouts/layout1.html | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754640303 | 46143097abcb06dcbc23e49d20ce7812 | 981 | 00282959oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 0d9defaa-fae6-47dc-b6dc-8eb95544e2a9 | 
+2025-08-08T08:17:59+00:00 | target/classes/templates/layouts | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 |  | 0 | 00282954oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 289beef9-39b4-4404-961a-5a8de2efcea9 | 
+2025-08-08T08:18:00+00:00 | target/classes/templates/fragments/header.html | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754538154 | 15c4b3a15c11dbbd2d421577849e87d0 | 2183 | 00282964oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | a26dd8dd-d03f-4901-9a69-cd9c6d32c2b4 | 
+2025-08-08T08:18:00+00:00 | target/classes/templates/fragments/footer.html | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754542449 | cb726de0a2219202e406377be1e07006 | 334 | 00282962oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 9c693008-6aae-441f-b70d-e25dfa6b980f | 
+2025-08-08T08:17:59+00:00 | target/classes/templates/fragments | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 |  | 0 | 00282952oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | cb24627a-63d5-46ee-8a6e-922142ce86c6 | 
+2025-08-08T08:18:00+00:00 | target/classes/templates/thymeleafEx/ThymeleafEx03.html | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754529594 | 0cd054d55daa5c4f3513631ceb29db72 | 869 | 00282965oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 04c84536-c2c1-44e8-b5be-1656720be0fd | 
+2025-08-08T08:18:00+00:00 | target/classes/templates/thymeleafEx/ThymeleafEx04.html | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754529898 | b04307d34ad14013b4d21fbc0d3b6fa7 | 859 | 00282966oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 524d904b-7e46-4a4b-be48-433b0322a261 | 
+2025-08-08T08:18:00+00:00 | target/classes/templates/thymeleafEx/ThymeleafEx05.html | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754530372 | 6b40e8717c24ef952684bb6fdf064e77 | 889 | 00282968oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 72fa2238-202b-425e-94d3-5224026b66f6 | 
+2025-08-08T08:18:00+00:00 | target/classes/templates/thymeleafEx/ThymeleafEx05-1.html | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754532606 | bb1215a5b120e817a0df927a18eaba28 | 558 | 00282967oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 99996ac3-530b-4e16-aa25-bdc9fbfa5054 | 
+2025-08-08T08:18:00+00:00 | target/generated-sources/java/com/codehows/shop/entity/QMember.java | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 | 72c91a855dcceb528df2026fee6c0e4b | 1355 | 00282969oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | bc767d25-c007-4fc1-b74b-573ba0aaf1a0 | 
+2025-08-08T08:18:00+00:00 | target/classes/templates/thymeleafEx/ThymeleafEx06.html | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754532606 | d9219a5a3276ba476fbaf7a150174556 | 247 | 00282970oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | bc9381f8-15bd-4839-bda1-fbe7a34ef83b | 
+2025-08-08T08:18:00+00:00 | target/classes/templates/thymeleafEx/ThymeleafEx07.html | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754535044 | 5125069dd90f840f774f537f4d946e51 | 264 | 00282971oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | d065f5fc-1740-4cc3-a4c0-4cf1e952e3c1 | 
+2025-08-08T08:17:59+00:00 | target/classes/templates/thymeleafEx | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 |  | 4096 | 00282953oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | f706497a-16c6-4768-86c5-4c96cdddda10 | 
+2025-08-08T08:17:59+00:00 | target/classes/templates | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 |  | 4096 | 00282941oci0n6765fou | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | a7b80638-88a2-484f-b4c8-33ed815ebbdb | 
+#=#=#=# Syncrun finished 2025-08-08T08:18:00Z (last step: 1443 msec , total: 1523 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:18:02Z
+#=#=#=#=# Propagation starts 2025-08-08T08:18:03Z (last step: 465 msec , total: 465 msec) 
+2025-08-08T08:18:03+00:00 | target/classes/static | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 |  | 0 |  | OCC::SyncFileItem::Message | 서버 응답: "423 Locked" - "MKCOL http://222.119.100.81/owncloud/remote.php/dav/files/asdf/springboot/target/classes/static" | 423 | 0 | 0 | 6575e0da-1cc7-41be-95ca-2fdfd810a5d4 | 
+#=#=#=# Syncrun finished 2025-08-08T08:18:03Z (last step: 64 msec , total: 530 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:18:05Z
+#=#=#=#=# Propagation starts 2025-08-08T08:18:05Z (last step: 117 msec , total: 117 msec) 
+2025-08-08T08:18:05+00:00 | target/classes/static | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 |  | 0 |  | OCC::SyncFileItem::Message | 서버 응답: "423 Locked" - "MKCOL http://222.119.100.81/owncloud/remote.php/dav/files/asdf/springboot/target/classes/static" | 423 | 0 | 0 | 4598637d-40c6-419a-b4da-cee0ca716cc1 | 
+#=#=#=# Syncrun finished 2025-08-08T08:18:05Z (last step: 66 msec , total: 183 msec) 
+#=#=#=# Syncrun started 2025-08-08T08:18:07Z
+#=#=#=#=# Propagation starts 2025-08-08T08:18:07Z (last step: 109 msec , total: 109 msec) 
+2025-08-08T08:18:07+00:00 | target/classes/static | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1754641072 |  | 0 |  | OCC::SyncFileItem::Message | 서버 응답: "423 Locked" - "MKCOL http://222.119.100.81/owncloud/remote.php/dav/files/asdf/springboot/target/classes/static" | 423 | 0 | 0 | 35007803-5a22-4b38-8871-f8119e68a4aa | 
+#=#=#=# Syncrun finished 2025-08-08T08:18:07Z (last step: 68 msec , total: 178 msec) 

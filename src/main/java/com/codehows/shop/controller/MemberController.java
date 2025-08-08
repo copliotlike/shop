@@ -1,8 +1,5 @@
 package com.codehows.shop.controller;
 
-import com.codehows.shop.Dto.MemberFormDto;
-import com.codehows.shop.entity.Member;
-import com.codehows.shop.service.MemberService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -32,8 +29,8 @@ public class MemberController {
         return "member/memberForm";
     }
 
-    @GetMapping("/login/error")
-    public String
+//    @GetMapping("/login/error")
+//    public String
 
     @PostMapping("/new")
     public String memberForm(@ModelAttribute @Valid MemberFormDto memberFormDto, BindingResult bindingResult, Model model){
