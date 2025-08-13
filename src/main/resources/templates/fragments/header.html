@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 
     <div th:fragment="header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -13,27 +14,32 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                        <li class="nav-item"
+                                sec:authorize="hasAnyAuthority('ROLE_ADMIN')">
                             <a class="nav-link active"  href="/admin/item/new">상품 등록</a>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item"
+                            sec:authorize="hasAnyAuthority('ROLE_ADMIN')">
                             <a class="nav-link active"  href="/admin/items">상품 관리</a>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item"
+                            sec:authorize="isAuthenticated()">
                             <a class="nav-link active"  href="/cart">장바구니</a>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item" sec:authorize="isAuthenticated()">
                             <a class="nav-link active" href="/orders">구매이력</a>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item"
+                                sec:authorize="isAnonymous()">
                             <a class="nav-link active" href="/members/login">로그인</a>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item"
+                        sec:authorize="isAuthenticated()">
 <!--                            <a class="nav-link active" href="/members/logout">로그아웃</a>-->
                             <form method="post" action="/members/logout">
                                 <input type="hidden" th:name="${_csrf.getParameterName()}" th:value="${_csrf.getToken()}">

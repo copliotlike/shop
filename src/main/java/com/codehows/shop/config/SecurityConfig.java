@@ -29,6 +29,25 @@ public class SecurityConfig {
         );
 //        http.csrf(AbstractHttpConfigurer::disable);
 
+        //3. 인가(접근 권한) 설정
+        http.authorizeHttpRequests((req)->{req
+                //모두 허용(비로그인도 가능)
+                .requestMatchers("/", "/members/**", "/item/**", "/images/**").permitAll()
+
+                //로그인 후 admin 역할을 가진 사용자만 접근 가능
+                .requestMatchers(("/admin/**")).hasRole("ADMIN")
+
+                .anyRequest().authenticated();  //그 외 모든 요청 로그인한 사용자만 접근 가능
+        });
+
+        //인증이 필요한 url에 비로그인 사용자가 접근할 경우
+        //spring security가 자동으로 /members/login 으로 이동시키도록 설정
+        http.exceptionHandling((e) -> e
+                .authenticationEntryPoint(new CustomAuthenticationEntryPoint())
+                .accessDeniedHandler(new CustomAccessDeniedHandler())
+        );
+
+
 
         return http.build();
     }
