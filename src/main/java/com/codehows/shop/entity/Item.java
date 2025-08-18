@@ -1,5 +1,6 @@
 package com.codehows.shop.entity;
 
+import com.codehows.shop.Dto.ItemFormDto;
 import com.codehows.shop.constant.ItemSellStatus;
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -11,7 +12,7 @@ import java.time.LocalDateTime;
 @Getter@Setter@ToString
 @Entity
 @Table(name="item")
-public class Item {
+public class Item extends BaseEntity {
     public static Item savedItem;
     @Id
     @Column(name = "item_id")
@@ -33,7 +34,11 @@ public class Item {
     @Enumerated(EnumType.STRING)
     private ItemSellStatus itemSellStatus;
 
-    private LocalDateTime regTime;
-
-    private LocalDateTime updateTime;
+    public void updateItem(ItemFormDto itemFormDto){
+        this.itemNm = itemFormDto.getItemNm();
+        this.price = itemFormDto.getPrice();
+        this.stockNumber = itemFormDto.getStockNumber();
+        this.itemDetail = itemFormDto.getItemDetail();
+        this.itemSellStatus = itemFormDto.getItemSellStatus();
+    }
 }
